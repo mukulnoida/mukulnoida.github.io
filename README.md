@@ -1,50 +1,29 @@
-# Academic website for Mukul Kumar Singh
+# Mukul Kumar Singh — Academic Website
 
-This is a static GitHub Pages website. No package installation, coding tools, or paid hosting needed.
+GitHub Pages repository: `mukulnoida.github.io`
 
-## Publish it
+## Installation
 
-1. Visit https://github.com/mukulnoida/mukulnoida.github.io (create the public repository if needed).
-2. Upload all **eight website files** from this folder to the repository ROOT (not into a nested folder):
-   - index.html
-   - research.html
-   - education.html
-   - teaching.html
-   - service.html
-   - cv.html
-   - style.css
-   - site.js
-3. Optional: upload a square picture named exactly `profile.jpg` to the same location. Without it, initials appear instead.
-4. Go to repository Settings > Pages > Build and deployment > Deploy from a branch > main > /(root) > Save.
-5. Visit https://mukulnoida.github.io after deployment completes.
+1. Extract the ZIP.
+2. Upload **all files and the entire `icons` folder** into the root of the public GitHub repository `mukulnoida/mukulnoida.github.io`. The `icons` folder must stay a folder, preserving paths such as `icons/linkedin.svg`. You may alternatively upload the files and icon SVGs using GitHub's website editor.
+3. Upload your personal photo as `profile.jpg` in the same root folder as `index.html`.
+4. In repository **Settings → Pages**, choose source **Deploy from a branch**, branch **main**, folder **/(root)**, then save.
+5. Verify every page and the contact links at `https://mukulnoida.github.io`.
 
-## Edit your content
+## Pages
 
-- Each menu item has its own `.html` file.
-- Replace the lab placeholder on `index.html` only after confirming your affiliation.
-- Add confirmed entries to teaching.html and service.html.
-- To add a PDF CV, upload `CV.pdf` at the repository root, then uncomment the download-link line in cv.html.
-- Contact links are already configured for your Gmail, LinkedIn, Scholar, ORCID, and GitHub.
+- `index.html`: About (machine learning methodology and semiconductor supply chains as first priority)
+- `research.html`: Research Interests (fully populated)
+- `publications.html`: Publications & Projects (published articles section links only to Scholar)
+- `education.html`: degrees, thesis titles, and academic advisors with official links
+- `teaching.html`: Teaching
+- `service.html`: Service
+- `cv.html`: request CV by email and LinkedIn
 
-## Accessibility
+Shared files: `style.css`, `site.js`, `icons/*.svg`.
 
-- Keyboard navigation, skip link, visible focus state, semantic landmarks, descriptive links
-- Dark/light toggle (remembered on the device), automatic system preference on first visit
-- Text sizing buttons (A+, A−, reset) remembered on the device
-- Reduced motion system settings honored
-- Responsive layout for mobile and desktop
+The website supports light/dark modes, text resizing, keyboard focus, skip-to-content, and reduced-motion preferences. The photo is supplied separately by you.
 
-Privacy note: GitHub Pages repositories for this free setup are public. Upload only files and details you are comfortable sharing publicly.
+## Editorial conventions
 
-## Version update: research and publications
-
-This version includes a dedicated `publications.html` page and updated SIGNS Lab, advisors, teaching, and service information sourced from the supplied CV and user-provided recommendation excerpt. Manuscripts in preparation are not presented as published articles. The 2026 conference abstract is not identified as presented without confirmation. The CV PDF is **not** included in this ZIP because it contains personal contact details and references; upload a public-safe CV separately if desired.
-
-Upload the entire extracted folder contents to the top level of your GitHub Pages repository. The file `profile.jpg` should be uploaded separately.
-
-
-## Revision: research priorities and balanced type
-- About heading corrected to “About”; primary focus is prominently stated underneath.
-- Research page now ranks machine learning for semiconductor supply chains first.
-- All research themes explicitly connect to machine learning or data-driven methods.
-- Heading sizes reduced across the website.
+Use sentence case after a colon, unless the text following it is a full independent sentence. The homepage's `Primary research interest:` phrase is followed by a sentence fragment starting with lowercase **applying**. Headings such as **Academic Advisors** use title case for consistency, but sentence case (`Academic advisors`) is also correct. **Thesis** is capitalized at the beginning of its standalone label (`Thesis:`), not because the word itself is always a proper noun.

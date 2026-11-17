@@ -10,3 +10,16 @@
 .panel{padding:24px 27px;margin-bottom:17px}
 .eyebrow{font-size:.69rem}
 @media(max-width:480px){.page-title{font-size:1.5rem}.panel{padding:20px 18px}}
+
+.tags { display:flex; flex-wrap:wrap; gap: .5rem; margin-top: 1rem; }
+.tags span { border: 1px solid var(--border, #ccd5df); border-radius: 999px; padding: .18rem .68rem; font-size:.82em; }
+
+/* Accessible icon-labeled profile links, displayed as a vertical list. */
+.profile-links{display:grid;gap:6px;list-style:none;padding:0;margin:10px 0 0}
+.profile-links li{margin:0;padding:0}
+.profile-links a{display:flex;align-items:center;gap:10px;min-height:39px;border:1px solid var(--line);border-radius:8px;padding:7px 10px;font-size:.84rem;font-weight:600;text-decoration:none;background:var(--paper)}
+.profile-links a:hover{background:var(--soft)}
+.profile-links img{display:block;width:20px;height:20px;flex:none}
+.cv-actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:15px}
+.action.secondary{background:var(--soft);color:var(--accentstrong);border:1px solid var(--line)}
+.tags span{border-color:var(--line);background:var(--soft);color:var(--ink)}
