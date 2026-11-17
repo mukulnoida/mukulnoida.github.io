@@ -35,3 +35,16 @@ This is a static GitHub Pages website. No package installation, coding tools, or
 - Responsive layout for mobile and desktop
 
 Privacy note: GitHub Pages repositories for this free setup are public. Upload only files and details you are comfortable sharing publicly.
+
+## Version update: research and publications
+
+This version includes a dedicated `publications.html` page and updated SIGNS Lab, advisors, teaching, and service information sourced from the supplied CV and user-provided recommendation excerpt. Manuscripts in preparation are not presented as published articles. The 2026 conference abstract is not identified as presented without confirmation. The CV PDF is **not** included in this ZIP because it contains personal contact details and references; upload a public-safe CV separately if desired.
+
+Upload the entire extracted folder contents to the top level of your GitHub Pages repository. The file `profile.jpg` should be uploaded separately.
+
+
+## Revision: research priorities and balanced type
+- About heading corrected to “About”; primary focus is prominently stated underneath.
+- Research page now ranks machine learning for semiconductor supply chains first.
+- All research themes explicitly connect to machine learning or data-driven methods.
+- Heading sizes reduced across the website.
